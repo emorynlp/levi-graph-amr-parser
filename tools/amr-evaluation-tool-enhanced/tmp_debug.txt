@@ -1,0 +1,72 @@
+c4 {'value': Concept(city), 'align': None, 'gold': True} {Var(n5): {'role': ':name'}} {Var(p24), Var(c33), Var(L22), Var(S17), Var(a42), Var(n8), Var(China), Var(n20), Var(V9), Var(h12), Var(h10), Var(a58), Var(g15), Var(a36), Var(n16), Var(c25), Var(a35), Var(d70), Var(c30), Var(n31), Var(n60), Var(c59), Var(p14), Var(Li_Peng), Var(s23), Var(j52), Var(f34), Var(P61), Var(-), Var(p3), Var(g40), Var(s47), Var(d53), Var(a62), Var(n26), Var(144), Var(s49), Var(h1), Var(a48), Var(a69), Var(s68), Var(M32), Var(p43), Var(p13), Var(g28), Var(m0), Var(C18), Var(246), Var(l63), Var(g41), Var(m67), '<s>', Var(g29), Var(t11), Var(s50), Var(Portugal), Var(r51), Var(c45), Var(g2), Var(C27), Var(Macau), Var(P21), Var(b54)}
+(s23 / say-01
+    :ARG0 (p14 / person
+        :ARG0-of (h12 / have-org-role-91
+            :ARG2 (p13 / premier)
+            :ARG1 (g15 / government-organization
+                :name (n16 / name
+                    :op1 "State"
+                    :op2 "Council"
+                    :op3 "Peng"
+                    :op4 "Li"
+                    :wiki -)))
+        :name (n20 / name
+            :op1 "Peng"
+            :op2 "Li"
+            :wiki "Li_Peng"))
+    :ARG1 (p24 / policy-01
+        :ARG1 (g28 / government-organization
+            :ARG0-of (g29 / govern-01
+                :ARG1 (c25 / country
+                    :name (n26 / name
+                        :op1 "China"
+                        :wiki "China")
+                    :ARG1-of (g41 / govern-01
+                        :ARG0 (g40 / government-organization
+                            :ARG0-of (a42 / accord-03
+                                :ARG1 (p43 / policy-01
+                                    :ARG1 (a48 / and
+                                        :op1 (c45 / country
+                                            :quant 1)
+                                        :op2 (s47 / system
+                                            :quant 2))))
+                            :ARG0-of (m67 / maintain-01
+                                :ARG1 (a69 / and
+                                    :op1 (s68 / stability)
+                                    :op2 (d70 / develop-02
+                                        :ARG1 c30))
+                                :ARG0 (a62 / and
+                                    :op2 (l63 / law
+                                        :op2-of a58
+                                        :mod c30)))
+                            :ARG0-of m0))
+                    :op1-of (b54 / between
+                        :op2 (c59 / country
+                            :op2-of a58
+                            :name (n60 / name
+                                :op1 "Portugal"
+                                :wiki "Portugal")))
+                    :op1-of (a58 / and
+                        :ARG0-of (d53 / declare-02
+                            :mod (j52 / joint)
+                            :ARG1-of (r51 / regulate-01))))
+                :ARG1 (c30 / city
+                    :name (n31 / name
+                        :op1 "Macao"
+                        :wiki "Macau")))))
+    :ARG1 (a35 / and
+        :op1 (c33 / consistent-02
+            :op1-of (a36 / and
+                :ARG1-of (s50 / say-01
+                    :mod (s49 / strict))))
+        :op1 (f34 / firm))
+    :time (m0 / meet-03
+        :ARG1 (p3 / person
+            :ARG0-of (h1 / have-org-role-91
+                :ARG2 (g2 / governor))
+            :name (n8 / name
+                :op1 "Viera"
+                :wiki -))
+        :time (t11 / today)
+        :location (h10 / here)))
+

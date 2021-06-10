@@ -1,0 +1,1 @@
+java -XX:+IgnoreUnrecognizedVMOptions --add-modules java.xml.bi -cp jaxb-ri/mod/jakarta.xml.bind-api.jar -jar dbpedia-spotlight-1.0.0.jar en http://localhost:2222/rest
