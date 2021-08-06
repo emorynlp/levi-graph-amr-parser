@@ -1,6 +1,6 @@
 # Levi Graph AMR Parser using Heterogeneous Attention
 
-Codes for our paper *Levi Graph AMR Parser using Heterogeneous Attention* published to [IWPT 2021: The 17th International Conference on Parsing Technologies](https://iwpt21.sigparse.org/). 
+Codes for our paper *Levi Graph AMR Parser using Heterogeneous Attention* published to [IWPT 2021: The 17th International Conference on Parsing Technologies](https://aclanthology.org/2021.iwpt-1.5/). 
 
 This paper presents a novel approach to AMR parsing by combining heterogeneous data (tokens, concepts, labels) as one input to a transformer to learn attention, and use only attention matrices from the transformer to predict all elements in AMR graphs  (concepts, arcs, labels). Although our models use significantly fewer parameters than the previous state-of-the-art graph parser, they show similar or better accuracy on AMR 2.0 and 3.0.
 
