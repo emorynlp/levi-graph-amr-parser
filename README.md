@@ -55,7 +55,8 @@ The following instruction (modified from [AMR-gs](https://github.com/jcyk/AMR-gs
 ### Training 
 
 ````
-sh scripts/train.sh data/AMR/amr_2.0
+sh scripts/train_joint.sh data/AMR/amr_2.0   # ND + AD + BD, aka cross-attention model
+sh scripts/train_levi.sh data/AMR/amr_2.0    # ND + AD + LV, aka Levi model
 ````
 
 The training process will produce many checkpoints and the corresponding output on dev set.
