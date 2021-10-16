@@ -3,6 +3,7 @@ import os
 import random
 import time
 
+from elit.common.util import isdebugging
 from elit.utils.log_util import cprint
 
 if os.environ.get('USE_TF', None) is None:
@@ -12,7 +13,6 @@ import torch.distributed as dist
 import torch.multiprocessing as mp
 from elit.transform.transformer_tokenizer import TransformerSequenceTokenizer
 from elit.utils.time_util import CountdownTimer
-from elit.utils.util import isdebugging
 from amr_parser.adam import AdamWeightDecayOptimizer
 from amr_parser.bert_utils import load_bert, BertEncoderTokenizer
 from amr_parser.data import Vocab, DataLoader, DUM, END, CLS, NIL, seperate_concept_from_rel
